@@ -1,0 +1,234 @@
+body {
+  background-color: black;
+}
+.navbar {
+  padding: 20px;
+  justify-content: center;
+}
+.navbar-nav {
+  justify-content: center;
+  width: 100%;
+}
+.hero {
+  padding-bottom: 50px;
+  margin-bottom: 32px;
+}
+.h1-hero,
+.p-hero {
+  text-align: center;
+}
+.h1-hero {
+  color: #cb0002;
+  font-size: 48px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+span {
+  font-weight: 700;
+}
+.p-hero {
+  margin-top: -20px;
+  color: #9f9f9f;
+  font-size: 24px;
+}
+.button-hero {
+  width: 276px;
+  height: 68px;
+  background-color: #cb0002;
+  border: none;
+  color: white;
+  font-size: 24px;
+  border-radius: 50px;
+  margin: auto;
+}
+.features {
+  background-color: white;
+  max-width: 100%;
+  padding: 20px;
+  margin: 0;
+}
+#img-features {
+  width: 500px;
+}
+.h1-img,
+.p-img {
+  color: white;
+  position: relative;
+  top: -50%;
+  text-align: center;
+}
+.why {
+  padding: 50px;
+}
+#why-img {
+  width: 500px;
+}
+
+#why-logo {
+  width: 100px;
+  margin-top: -15px;
+}
+.h1-why {
+  font-size: 72px;
+}
+.h1-why,
+.p-why {
+  color: white;
+}
+.card-container p,
+h1 {
+  text-align: center;
+}
+.card-container {
+  max-width: 100%;
+  padding: 20px;
+  background-color: white;
+}
+.card {
+  text-align: center;
+  width: 350px;
+  border: #acacac 0, 5px solid;
+  padding: 20px;
+  border-radius: 10px;
+}
+.card-btn {
+  width: 150px;
+  max-width: 100%;
+  height: 40px;
+  background-color: #cb0002;
+  color: white;
+  border-radius: 20px;
+}
+.card-container h1 {
+  margin-top: 72px;
+}
+
+.customer {
+  max-width: 100%;
+  padding: 20px;
+  background-color: white;
+  padding-bottom: 120px;
+}
+.customer h1 {
+  margin-top: 72px;
+  margin-bottom: 64px;
+}
+.card-cust {
+  width: 310px;
+  max-width: 100%;
+  text-align: center;
+  border: #d4d4d4 1px solid;
+  border-radius: 10px;
+  padding-top: 30px;
+}
+.cust-img {
+  width: 100px;
+  margin: auto;
+}
+.card-text-cust {
+  font-size: 14px;
+}
+.region {
+  font-size: 12px;
+  color: #9f9f9f;
+}
+.row .footer-menu {
+  padding-top: 50px;
+}
+.footer {
+  padding: 90px;
+}
+.footer-title {
+  color: white;
+}
+.footer p {
+  margin-top: 30px;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+}
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  font-weight: 200;
+}
+/*/////////////////////////////////////////BREAKPOINTS/////////////////////////////////////////*/
+@media (max-width: 1200px) {
+  #img-features {
+    width: 400px;
+  }
+  #why-img {
+    width: 300px;
+  }
+  .card {
+    margin: auto;
+    text-align: center;
+    width: 250px;
+  }
+  .card-cust {
+    width: 280px;
+  }
+}
+@media (max-width: 992px) {
+  #img-features {
+    width: 300px;
+  }
+  .h1-img {
+    font-size: 24px;
+  }
+  .p-img {
+    font-size: 12px;
+  }
+  #why-img {
+    display: none;
+  }
+  .card {
+    width: 200px;
+  }
+  .card-cust {
+    width: 180px;
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #img-features {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .h1-img {
+    font-size: 36px;
+  }
+  .p-img {
+    font-size: 18px;
+  }
+  .card {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  .card-cust {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .p-hero {
+    font-size: 18px;
+  }
+  .h1-hero {
+    font-size: 36px;
+  }
+  .button-hero {
+    width: 226px;
+    height: 48px;
+    font-size: 18px;
+  }
+  .card {
+    width: 260px;
+    margin-bottom: 20px;
+  }
+  .card-cust {
+    width: 250px;
+  }
+}
