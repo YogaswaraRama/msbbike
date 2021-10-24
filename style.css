@@ -9,6 +9,19 @@ body {
   justify-content: center;
   width: 100%;
 }
+.searchbar {
+  display: none;
+}
+#searchBar {
+  margin-right: 20px;
+  border-radius: 20px;
+  border: none;
+  padding: 5px;
+  font-size: 18px;
+}
+.search {
+  cursor: pointer;
+}
 .hero {
   padding-bottom: 50px;
   margin-bottom: 32px;
