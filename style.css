@@ -56,6 +56,10 @@ span {
   border-radius: 50px;
   margin: auto;
 }
+.button-hero a {
+  text-decoration: none;
+  color: white;
+}
 .features {
   background-color: white;
   max-width: 100%;
