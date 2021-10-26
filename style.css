@@ -18,7 +18,9 @@ body {
   border: none;
   padding: 5px;
   font-size: 18px;
+  transition: 2s;
 }
+
 .search {
   cursor: pointer;
 }
@@ -166,6 +168,90 @@ h1 {
   color: white;
   font-weight: 200;
 }
+.bread {
+  background: white;
+  max-width: 100%;
+  padding: 20px 20px 20px 80px;
+}
+.breadcrumb-item a {
+  font-weight: 300;
+  font-size: 18px;
+  color: #6d6d6d;
+  text-decoration: none;
+}
+#active {
+  color: #790506;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+}
+.products {
+  background-color: white;
+  max-width: 100%;
+  padding: 12px 100px 64px 100px;
+}
+.desc-product {
+  margin-left: 50px;
+}
+.imgbig {
+  width: 100%;
+  border: 1px solid #838383;
+  border-radius: 10px;
+}
+.imgsmall {
+  width: 120px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #838383;
+  border-radius: 10px;
+}
+.title-product {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 59px;
+  text-align: left;
+}
+.shortdesc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #9f9f9f;
+  text-align: left;
+}
+.price {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: left;
+  color: #790506;
+}
+.btn-group {
+  padding: 0px 0 20px 0;
+}
+.firsttime {
+  font-weight: 400;
+  color: #4a4a4a;
+  font-size: 18px;
+}
+.firsttime a {
+  font-weight: 400;
+  color: #4a4a4a;
+  font-size: 18px;
+}
+#orderbutton {
+  background-color: #cb0002;
+  border-radius: 50px;
+  width: 290px;
+  height: 45px;
+  border-style: unset;
+}
+#orderbutton a {
+  text-decoration: none;
+  color: white;
+}
+.textbarang {
+  padding-top: 64px;
+}
 /*/////////////////////////////////////////BREAKPOINTS/////////////////////////////////////////*/
 @media (max-width: 1200px) {
   #img-features {
@@ -181,6 +267,9 @@ h1 {
   }
   .card-cust {
     width: 280px;
+  }
+  .imgsmall {
+    width: 100%;
   }
 }
 @media (max-width: 992px) {
@@ -203,6 +292,10 @@ h1 {
     width: 180px;
     padding: 10px;
   }
+  .desc-product {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
 }
 @media (max-width: 768px) {
   #img-features {
@@ -224,6 +317,12 @@ h1 {
     margin: auto;
     margin-bottom: 20px;
   }
+  .imgbig {
+    width: 100%;
+  }
+  .imgsmall {
+    width: 100%;
+  }
 }
 @media (max-width: 576px) {
   .p-hero {
@@ -243,5 +342,16 @@ h1 {
   }
   .card-cust {
     width: 250px;
+  }
+  .products {
+    padding: 12px 15px 64px 15px;
+  }
+  .imgsmall {
+    width: 100%;
+  }
+  .imgbig {
+    width: 550px;
+    margin: auto;
+    max-width: 100%;
   }
 }

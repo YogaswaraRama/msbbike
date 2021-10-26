@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/Logo.png" />
+    <title></title>
+  </head>
+  <body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark mx-auto" style="background-color: black;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/Logo.png" style="width: 71px" alt="" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Review</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Support</a>
+              </li>
+            </ul>
+            <input  id='searchBar' class="searchbar" name='search' type='search' placeholder='Search&hellip;'>
+            <a class="navbar-brand " href="#" id="search"><img src="img/search.png" alt=""  onClick="searchBar()"/></a>
+    </div>
+          </div>
+        </div>
+      </nav>
+    <!--Navbar-->
+
+    <!--Breadcrumbs-->
+    <div class="container bread">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Products</a></li>
+            <li class="breadcrumb-item active" id="active" aria-current="page">The Beast</li>
+            </ol>
+        </nav>
+    </div>
+    <!--Breadcrumbs-->
+
+    <!--Product-->
+    <div class="container products">
+        <div class="row">
+
+        <!--Gambar-->
+            <div class="col-lg-6">
+            <img class="imgbig" src="IMG/thebeast.png" alt="">
+                <div class="row ">
+                    <div class="col-3">
+                    <img class="imgsmall" src="img/pngwing 2.png" alt="">
+                    </div>
+                    <div class="col-3">
+                    <img class="imgsmall" src="img/pngwing 3.png" alt="">
+                    </div><div class="col-3">
+                        <img class="imgsmall" src="img/pngwing 2.png" alt="">
+                        </div>
+                        <div class="col-3">
+                        <img class="imgsmall" src="img/pngwing 3.png" alt="">
+                        </div>
+                  
+                </div>
+            </div>
+        <!--Gambar-->
+
+        <!--Deskripsi-->
+            <div class="col desc-product">
+                <div class="row">
+                <h1 class="title-product">
+                    THE BEAST
+                </h1>
+                <p class="shortdesc"> The conquerer of any terrain</p>
+                <p class="price">Rp 19.900.000</p>
+                </div>
+
+                <div class="row ">
+                <div class="size">
+                    <p>Select Size</p>
+                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check  " name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-danger" for="btnradio1">S</label>
+                      
+                        <input type="radio" class="btn-check " name="btnradio" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-danger" for="btnradio2">M</label>
+                      
+                        <input type="radio" class="btn-check " name="btnradio" id="btnradio3" autocomplete="off">
+                        <label class="btn btn-outline-danger" for="btnradio3">L</label>
+
+                        <input type="radio" class="btn-check " name="btnradio" id="btnradio4" autocomplete="off">
+                        <label class="btn btn-outline-danger" for="btnradio4">XL</label>
+                      </div>
+                    
+
+                </div>
+                <p class="firsttime">First time calculating frame size? <a href="#">click here</a> </p>
+                </div>
+                <div class="row">
+                <div class="button-container">
+                <button id="orderbutton">
+                    <a href="#"> Add to Chart</a>
+                </button>
+               
+                </div>
+                </div>
+                
+            </div>
+        <!--Deskripsi-->
+
+        <!--Text barang-->
+        <div class="row textbarang">
+            <hr>
+            <h4>Description</h4>
+            <p>On tough, rowdy trails you need a bike you can rely on. That's why, with the Cube Stereo 150 C:62 SL, we began with Fox's superb 36 Factory GRIP2 fork and Float X Factory shock with Kashima coatings. Newmen's Evolution wheelset features a three-pawl freehub design for better pickup and power delivery.
+                Shimano's legendarily reliable and accurate 1x12 XT gears work with grippy Schwalbe Magic Mary and Big Betty 2.4in tyres to keep you rolling. And the powerful Shimano XT hydraulic disc brakes with oversize front rotor have all the speed-scrubbing ability you need to keep you riding flat out, safely. Throw in a Fox Transfer Factory dropper post, and our work here is done.</p>
+        </div>
+        <!--Text barang-->
+        </div>
+
+
+
+    </div>
+    <!--Product-->
+
+
+    <!--Footer-->
+    <div class="container footer">
+      <div class="row">
+        <div class="col">
+          <img src="img/logocapt.png" alt="" />
+        </div>
+        <div class="col">
+          <div class="row footer-menu">
+            <div class="col">
+              <h4 class="footer-title">EXPLORE</h4>
+              <p>OUR SERVICES</p>
+              <p>SPECIFICATION</p>
+              <p>PRICELIST</p>
+            </div>
+            <div class="col">
+              <h4 class="footer-title">CONTACT</h4>
+              <p>+0542 1991 9119</p>
+              <p>E-WALK, BALIKPAPAN</p>
+              <p>MSB@CONTACT.COM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+
+    <!--Copyright-->
+    <div class="copyright">
+      <p>© 2021 MSB. All rights reserved.</p>
+    </div>
+    <!--Copyright-->
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
